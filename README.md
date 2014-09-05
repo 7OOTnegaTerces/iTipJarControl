@@ -41,7 +41,7 @@ If you find a bug in the project (and you don’t know how to fix it), have trou
 
 When you find something that you think you can help with, let us know.  Assign yourself the issue, ask questions with issue comments. We are here to help!  
 
-If its a complex task propose a solution for feedback or break it down into seperate smaller issues.  Create new issues for each of the steps.
+If its a complex task, propose a solution for feedback or break it down into seperate smaller issues.  Create new issues for each of the steps.
 
 #### Fork the Project
 
