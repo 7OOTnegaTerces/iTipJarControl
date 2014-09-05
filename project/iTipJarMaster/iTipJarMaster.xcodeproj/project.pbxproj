@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F177C08719B9581700E280A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177C08619B9581700E280A7 /* AppDelegate.swift */; };
+		F177C08919B9581700E280A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177C08819B9581700E280A7 /* ViewController.swift */; };
+		F177C08C19B9581700E280A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F177C08A19B9581700E280A7 /* Main.storyboard */; };
+		F177C08E19B9581700E280A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F177C08D19B9581700E280A7 /* Images.xcassets */; };
+		F177C09A19B9581700E280A7 /* iTipJarMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177C09919B9581700E280A7 /* iTipJarMasterTests.swift */; };
+		F177C0A519B9586200E280A7 /* iTipJarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177C0A419B9586200E280A7 /* iTipJarControl.swift */; };
+		F177C0A619B95E5D00E280A7 /* iTipJarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177C0A419B9586200E280A7 /* iTipJarControl.swift */; };
+		F177C0A819B95EAB00E280A7 /* iTipJarControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177C0A719B95EAB00E280A7 /* iTipJarControlTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F177C09419B9581700E280A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F177C07919B9581700E280A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F177C08019B9581700E280A7;
+			remoteInfo = iTipJarMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F177C08119B9581700E280A7 /* iTipJarMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTipJarMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F177C08519B9581700E280A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F177C08619B9581700E280A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F177C08819B9581700E280A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F177C08B19B9581700E280A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F177C08D19B9581700E280A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F177C09319B9581700E280A7 /* iTipJarMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTipJarMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F177C09819B9581700E280A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F177C09919B9581700E280A7 /* iTipJarMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTipJarMasterTests.swift; sourceTree = "<group>"; };
+		F177C0A419B9586200E280A7 /* iTipJarControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iTipJarControl.swift; path = ../iTipJarControl/iTipJarControl.swift; sourceTree = "<group>"; };
+		F177C0A719B95EAB00E280A7 /* iTipJarControlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTipJarControlTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F177C07E19B9581700E280A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F177C09019B9581700E280A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F177C07819B9581700E280A7 = {
+			isa = PBXGroup;
+			children = (
+				F177C0A319B9582700E280A7 /* iTipJarControl */,
+				F177C08319B9581700E280A7 /* iTipJarMaster */,
+				F177C09619B9581700E280A7 /* iTipJarMasterTests */,
+				F177C08219B9581700E280A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F177C08219B9581700E280A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F177C08119B9581700E280A7 /* iTipJarMaster.app */,
+				F177C09319B9581700E280A7 /* iTipJarMasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F177C08319B9581700E280A7 /* iTipJarMaster */ = {
+			isa = PBXGroup;
+			children = (
+				F177C08619B9581700E280A7 /* AppDelegate.swift */,
+				F177C08819B9581700E280A7 /* ViewController.swift */,
+				F177C08A19B9581700E280A7 /* Main.storyboard */,
+				F177C08D19B9581700E280A7 /* Images.xcassets */,
+				F177C08419B9581700E280A7 /* Supporting Files */,
+			);
+			path = iTipJarMaster;
+			sourceTree = "<group>";
+		};
+		F177C08419B9581700E280A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F177C08519B9581700E280A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F177C09619B9581700E280A7 /* iTipJarMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F177C09919B9581700E280A7 /* iTipJarMasterTests.swift */,
+				F177C09719B9581700E280A7 /* Supporting Files */,
+				F177C0A719B95EAB00E280A7 /* iTipJarControlTests.swift */,
+			);
+			path = iTipJarMasterTests;
+			sourceTree = "<group>";
+		};
+		F177C09719B9581700E280A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F177C09819B9581700E280A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F177C0A319B9582700E280A7 /* iTipJarControl */ = {
+			isa = PBXGroup;
+			children = (
+				F177C0A419B9586200E280A7 /* iTipJarControl.swift */,
+			);
+			name = iTipJarControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F177C08019B9581700E280A7 /* iTipJarMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F177C09D19B9581700E280A7 /* Build configuration list for PBXNativeTarget "iTipJarMaster" */;
+			buildPhases = (
+				F177C07D19B9581700E280A7 /* Sources */,
+				F177C07E19B9581700E280A7 /* Frameworks */,
+				F177C07F19B9581700E280A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTipJarMaster;
+			productName = iTipJarMaster;
+			productReference = F177C08119B9581700E280A7 /* iTipJarMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F177C09219B9581700E280A7 /* iTipJarMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F177C0A019B9581700E280A7 /* Build configuration list for PBXNativeTarget "iTipJarMasterTests" */;
+			buildPhases = (
+				F177C08F19B9581700E280A7 /* Sources */,
+				F177C09019B9581700E280A7 /* Frameworks */,
+				F177C09119B9581700E280A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F177C09519B9581700E280A7 /* PBXTargetDependency */,
+			);
+			name = iTipJarMasterTests;
+			productName = iTipJarMasterTests;
+			productReference = F177C09319B9581700E280A7 /* iTipJarMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F177C07919B9581700E280A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Thinkful;
+				TargetAttributes = {
+					F177C08019B9581700E280A7 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F177C09219B9581700E280A7 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F177C08019B9581700E280A7;
+					};
+				};
+			};
+			buildConfigurationList = F177C07C19B9581700E280A7 /* Build configuration list for PBXProject "iTipJarMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F177C07819B9581700E280A7;
+			productRefGroup = F177C08219B9581700E280A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F177C08019B9581700E280A7 /* iTipJarMaster */,
+				F177C09219B9581700E280A7 /* iTipJarMasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F177C07F19B9581700E280A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F177C08C19B9581700E280A7 /* Main.storyboard in Resources */,
+				F177C08E19B9581700E280A7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F177C09119B9581700E280A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F177C07D19B9581700E280A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F177C08919B9581700E280A7 /* ViewController.swift in Sources */,
+				F177C0A519B9586200E280A7 /* iTipJarControl.swift in Sources */,
+				F177C08719B9581700E280A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F177C08F19B9581700E280A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F177C09A19B9581700E280A7 /* iTipJarMasterTests.swift in Sources */,
+				F177C0A619B95E5D00E280A7 /* iTipJarControl.swift in Sources */,
+				F177C0A819B95EAB00E280A7 /* iTipJarControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F177C09519B9581700E280A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F177C08019B9581700E280A7 /* iTipJarMaster */;
+			targetProxy = F177C09419B9581700E280A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F177C08A19B9581700E280A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F177C08B19B9581700E280A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F177C09B19B9581700E280A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F177C09C19B9581700E280A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F177C09E19B9581700E280A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = iTipJarMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F177C09F19B9581700E280A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = iTipJarMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F177C0A119B9581700E280A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iTipJarMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTipJarMaster.app/iTipJarMaster";
+			};
+			name = Debug;
+		};
+		F177C0A219B9581700E280A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iTipJarMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTipJarMaster.app/iTipJarMaster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F177C07C19B9581700E280A7 /* Build configuration list for PBXProject "iTipJarMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F177C09B19B9581700E280A7 /* Debug */,
+				F177C09C19B9581700E280A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F177C09D19B9581700E280A7 /* Build configuration list for PBXNativeTarget "iTipJarMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F177C09E19B9581700E280A7 /* Debug */,
+				F177C09F19B9581700E280A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F177C0A019B9581700E280A7 /* Build configuration list for PBXNativeTarget "iTipJarMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F177C0A119B9581700E280A7 /* Debug */,
+				F177C0A219B9581700E280A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F177C07919B9581700E280A7 /* Project object */;
+}
