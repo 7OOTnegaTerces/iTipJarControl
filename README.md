@@ -25,6 +25,8 @@ iTipJarControl offers an alternative montization strategy.  Don't want Ads, don'
 ---
 We are currently looking for contributors. Pick out an issue and jump in! 
 
+Working with Swift, Xcode6, Beta7
+
 
 ### Contributing
 
