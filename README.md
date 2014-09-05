@@ -1,7 +1,7 @@
 iTipJarControl
 ==============
 
-iTipJarControl offers an alternative montization strategy.  Don't want Ads, don't want to limit your distrubution with a price, offer your users an opportunity to make a voluntary contribution.  iTipJarControl is a button that you can drop into your iOS project that when pressed, offers your users the opportunity to give you a tip through Apples' in app purachase process.
+iTipJarControl offers an alternative montization strategy.  Don't want Ads, don't want to limit your distrubution with a price, offer your users an opportunity to make a voluntary contribution.  iTipJarControl is a button that you can drop into your iOS project that when pressed, offers your users the opportunity to give you a tip through Apple's' In-App purchase process.
 
 
 ![](https://raw.github.com/thinkful/iTipJarControl/master/ArtWork/tipjar.jpg)
@@ -13,7 +13,7 @@ iTipJarControl offers an alternative montization strategy.  Don't want Ads, don'
 
 * Subclass of UIButton
 * Customize with your own button images, or button label
-* Will popup a view allowing the user to select the number of tips.
+* Will popup a view allowing the user to select the number of tips at Tier 1 pricing (99 cents)
 * Handles request with Apple Store process
 * UIStoryboard support
 * UIAccessibility support
