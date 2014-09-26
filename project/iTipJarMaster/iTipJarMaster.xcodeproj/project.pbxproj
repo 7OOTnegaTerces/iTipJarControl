@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F10FAC1819D50902008D7D35 /* iTipJarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10FAC1719D50902008D7D35 /* iTipJarConfiguration.swift */; };
+		F10FAC1919D50D8C008D7D35 /* iTipJarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10FAC1719D50902008D7D35 /* iTipJarConfiguration.swift */; };
+		F10FAC1B19D50DCE008D7D35 /* iTipJarConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10FAC1A19D50DCE008D7D35 /* iTipJarConfigurationTests.swift */; };
 		F177C08719B9581700E280A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177C08619B9581700E280A7 /* AppDelegate.swift */; };
 		F177C08919B9581700E280A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177C08819B9581700E280A7 /* ViewController.swift */; };
 		F177C08C19B9581700E280A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F177C08A19B9581700E280A7 /* Main.storyboard */; };
@@ -28,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F10FAC1719D50902008D7D35 /* iTipJarConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iTipJarConfiguration.swift; path = ../iTipJarControl/iTipJarConfiguration.swift; sourceTree = "<group>"; };
+		F10FAC1A19D50DCE008D7D35 /* iTipJarConfigurationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTipJarConfigurationTests.swift; sourceTree = "<group>"; };
 		F177C08119B9581700E280A7 /* iTipJarMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTipJarMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F177C08519B9581700E280A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F177C08619B9581700E280A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,9 +106,10 @@
 		F177C09619B9581700E280A7 /* iTipJarMasterTests */ = {
 			isa = PBXGroup;
 			children = (
+				F10FAC1A19D50DCE008D7D35 /* iTipJarConfigurationTests.swift */,
+				F177C0A719B95EAB00E280A7 /* iTipJarControlTests.swift */,
 				F177C09919B9581700E280A7 /* iTipJarMasterTests.swift */,
 				F177C09719B9581700E280A7 /* Supporting Files */,
-				F177C0A719B95EAB00E280A7 /* iTipJarControlTests.swift */,
 			);
 			path = iTipJarMasterTests;
 			sourceTree = "<group>";
@@ -120,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				F177C0A419B9586200E280A7 /* iTipJarControl.swift */,
+				F10FAC1719D50902008D7D35 /* iTipJarConfiguration.swift */,
 			);
 			name = iTipJarControl;
 			sourceTree = "<group>";
@@ -223,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10FAC1819D50902008D7D35 /* iTipJarConfiguration.swift in Sources */,
 				F177C08919B9581700E280A7 /* ViewController.swift in Sources */,
 				F177C0A519B9586200E280A7 /* iTipJarControl.swift in Sources */,
 				F177C08719B9581700E280A7 /* AppDelegate.swift in Sources */,
@@ -233,8 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10FAC1919D50D8C008D7D35 /* iTipJarConfiguration.swift in Sources */,
 				F177C09A19B9581700E280A7 /* iTipJarMasterTests.swift in Sources */,
 				F177C0A619B95E5D00E280A7 /* iTipJarControl.swift in Sources */,
+				F10FAC1B19D50DCE008D7D35 /* iTipJarConfigurationTests.swift in Sources */,
 				F177C0A819B95EAB00E280A7 /* iTipJarControlTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +425,7 @@
 				F177C09F19B9581700E280A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F177C0A019B9581700E280A7 /* Build configuration list for PBXNativeTarget "iTipJarMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +434,7 @@
 				F177C0A219B9581700E280A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
