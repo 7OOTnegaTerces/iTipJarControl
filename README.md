@@ -25,7 +25,7 @@ iTipJarControl offers an alternative montization strategy.  Don't want Ads, don'
 ---
 We are currently looking for contributors. Pick out an issue and jump in! 
 
-Working with Swift, Xcode6, Beta7
+Working with Swift and Xcode
 
 
 ### Contributing
@@ -47,7 +47,7 @@ If its a complex task, propose a solution for feedback or break it down into sep
 
 #### Fork the Project
 
-[Fork](https://guides.github.com/activities/forking/) the repository and clone it locally. Connect your local to the original ‘upstream’ repository by adding it as a remote. Pull in changes from ‘upstream’ often so that you stay up to date so that when you submit your pull request, merge conflicts will be less likely. See more detailed instructions [here](https://help.github.com/articles/syncing-a-fork).
+[Fork](http://www.thinkful.com/learn/github-pull-request-tutorial/) the repository and clone it locally. Connect your local to the original ‘upstream’ repository by adding it as a remote. Pull in changes from ‘upstream’ often so that you stay up to date so that when you submit your pull request, merge conflicts will be less likely. See more detailed instructions [here](https://help.github.com/articles/syncing-a-fork).
 
 #### Do the Work 
 
