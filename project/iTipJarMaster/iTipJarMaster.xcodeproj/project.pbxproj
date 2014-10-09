@@ -18,6 +18,14 @@
 		F177C0A519B9586200E280A7 /* iTipJarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177C0A419B9586200E280A7 /* iTipJarControl.swift */; };
 		F177C0A619B95E5D00E280A7 /* iTipJarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177C0A419B9586200E280A7 /* iTipJarControl.swift */; };
 		F177C0A819B95EAB00E280A7 /* iTipJarControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177C0A719B95EAB00E280A7 /* iTipJarControlTests.swift */; };
+		F1BA1AF619E64CF6002683F0 /* iTipJarPaymentTransactionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA1AF519E64CF6002683F0 /* iTipJarPaymentTransactionObserver.swift */; };
+		F1BA1AFB19E64FE3002683F0 /* iTabJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA1AF919E64FE3002683F0 /* iTabJarViewController.swift */; };
+		F1BA1AFC19E64FE3002683F0 /* iTabJarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1BA1AFA19E64FE3002683F0 /* iTabJarViewController.xib */; };
+		F1BA1AFE19E656DC002683F0 /* iTabJarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA1AFD19E656DC002683F0 /* iTabJarExtensions.swift */; };
+		F1BA1AFF19E65B29002683F0 /* iTipJarPaymentTransactionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA1AF519E64CF6002683F0 /* iTipJarPaymentTransactionObserver.swift */; };
+		F1BA1B0019E65B2C002683F0 /* iTabJarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1BA1AFA19E64FE3002683F0 /* iTabJarViewController.xib */; };
+		F1BA1B0119E65B2F002683F0 /* iTabJarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA1AFD19E656DC002683F0 /* iTabJarExtensions.swift */; };
+		F1BA1B0219E65B33002683F0 /* iTabJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA1AF919E64FE3002683F0 /* iTabJarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,10 @@
 		F177C09919B9581700E280A7 /* iTipJarMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTipJarMasterTests.swift; sourceTree = "<group>"; };
 		F177C0A419B9586200E280A7 /* iTipJarControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iTipJarControl.swift; path = ../iTipJarControl/iTipJarControl.swift; sourceTree = "<group>"; };
 		F177C0A719B95EAB00E280A7 /* iTipJarControlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTipJarControlTests.swift; sourceTree = "<group>"; };
+		F1BA1AF519E64CF6002683F0 /* iTipJarPaymentTransactionObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iTipJarPaymentTransactionObserver.swift; path = ../iTipJarControl/iTipJarPaymentTransactionObserver.swift; sourceTree = "<group>"; };
+		F1BA1AF919E64FE3002683F0 /* iTabJarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iTabJarViewController.swift; path = ../iTipJarControl/iTabJarViewController.swift; sourceTree = "<group>"; };
+		F1BA1AFA19E64FE3002683F0 /* iTabJarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iTabJarViewController.xib; path = ../iTipJarControl/iTabJarViewController.xib; sourceTree = "<group>"; };
+		F1BA1AFD19E656DC002683F0 /* iTabJarExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTabJarExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +139,10 @@
 			children = (
 				F177C0A419B9586200E280A7 /* iTipJarControl.swift */,
 				F10FAC1719D50902008D7D35 /* iTipJarConfiguration.swift */,
+				F1BA1AF519E64CF6002683F0 /* iTipJarPaymentTransactionObserver.swift */,
+				F1BA1AF919E64FE3002683F0 /* iTabJarViewController.swift */,
+				F1BA1AFA19E64FE3002683F0 /* iTabJarViewController.xib */,
+				F1BA1AFD19E656DC002683F0 /* iTabJarExtensions.swift */,
 			);
 			name = iTipJarControl;
 			sourceTree = "<group>";
@@ -212,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F177C08C19B9581700E280A7 /* Main.storyboard in Resources */,
+				F1BA1AFC19E64FE3002683F0 /* iTabJarViewController.xib in Resources */,
 				F177C08E19B9581700E280A7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BA1B0019E65B2C002683F0 /* iTabJarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,8 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BA1AFB19E64FE3002683F0 /* iTabJarViewController.swift in Sources */,
 				F10FAC1819D50902008D7D35 /* iTipJarConfiguration.swift in Sources */,
+				F1BA1AFE19E656DC002683F0 /* iTabJarExtensions.swift in Sources */,
 				F177C08919B9581700E280A7 /* ViewController.swift in Sources */,
+				F1BA1AF619E64CF6002683F0 /* iTipJarPaymentTransactionObserver.swift in Sources */,
 				F177C0A519B9586200E280A7 /* iTipJarControl.swift in Sources */,
 				F177C08719B9581700E280A7 /* AppDelegate.swift in Sources */,
 			);
@@ -242,6 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F10FAC1919D50D8C008D7D35 /* iTipJarConfiguration.swift in Sources */,
+				F1BA1AFF19E65B29002683F0 /* iTipJarPaymentTransactionObserver.swift in Sources */,
+				F1BA1B0219E65B33002683F0 /* iTabJarViewController.swift in Sources */,
+				F1BA1B0119E65B2F002683F0 /* iTabJarExtensions.swift in Sources */,
 				F177C09A19B9581700E280A7 /* iTipJarMasterTests.swift in Sources */,
 				F177C0A619B95E5D00E280A7 /* iTipJarControl.swift in Sources */,
 				F10FAC1B19D50DCE008D7D35 /* iTipJarConfigurationTests.swift in Sources */,

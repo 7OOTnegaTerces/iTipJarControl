@@ -33,7 +33,15 @@ class iTipJarControl: UIButton {
   }
 
   @objc(buttonPressed:) private func buttonPressed(sender: AnyObject? ) {
-    UIAlertView(title: "Tip Jar", message: "Thank you for your tip", delegate: nil, cancelButtonTitle: "Ok")
-      .show()
+    //UIAlertView(title: "Tip Jar", message: "Thank you for your tip", delegate: nil, cancelButtonTitle: "Ok")
+    //  .show()
+    if let parentViewController = self.parentUIViewController() {
+      let viewController = iTabJarViewController(nibName: "iTabJarViewController", bundle: nil)
+      parentViewController.presentViewController(viewController, animated: true, completion: nil)
+    }
+    else {
+      println("Error, unable to find parent UIViewController");
+    }
+    
   }
 }

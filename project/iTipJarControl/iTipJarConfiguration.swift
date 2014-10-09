@@ -7,8 +7,10 @@
 //
 
 import Foundation
+import StoreKit
 
 class iTipJarConfiguration {
+
 
   //MARK: Class Methods
 
@@ -39,6 +41,14 @@ class iTipJarConfiguration {
     }
 
     return Static.sharedInstance!
+  }
+
+  //MARK: Initializer
+  let  paymentQueue = SKPaymentQueue.defaultQueue()
+  let  paymentTransactionObserver = iTipJarPaymentTransactionObserver()
+
+  init() {
+    paymentQueue.addTransactionObserver(paymentTransactionObserver)
   }
 
 
