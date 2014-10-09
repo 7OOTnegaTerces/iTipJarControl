@@ -7,47 +7,16 @@
 //
 
 import UIKit
-import StoreKit
+
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, SKPaymentTransactionObserver {
+class AppDelegate: UIResponder, UIApplicationDelegate  {
     
     var window: UIWindow?
-    
-    
-    func paymentQueue(queue: SKPaymentQueue!, updatedTransactions transactions: [AnyObject]!) {
-        
-        for transaction in transactions as [SKPaymentTransaction]{
-            println(transaction.payment.productIdentifier)
-            
-            switch(transaction.transactionState){
-                
-            case SKPaymentTransactionState.Purchased:
-                println("Purchased")
-                SKPaymentQueue.defaultQueue().finishTransaction(transaction)
-                
-            case SKPaymentTransactionState.Purchasing :
-                println("Purchasing")
-                
-            case SKPaymentTransactionState.Restored :
-                println("restored")
-                SKPaymentQueue.defaultQueue().finishTransaction(transaction)
-                
-            case SKPaymentTransactionState.Deferred :
-                println("deferred")
-                
-            case SKPaymentTransactionState.Failed :
-                println("Failed: \(transaction.error)")
-                
-            }
-        }
-    }
-    
-    
+
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        var defaultQueue: SKPaymentQueue  = SKPaymentQueue ()
-        defaultQueue.addTransactionObserver(self)
+      iTipJarConfiguration.sharedInstance
         
         return true
     }
